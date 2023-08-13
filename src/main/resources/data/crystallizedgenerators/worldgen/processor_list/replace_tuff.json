@@ -1,0 +1,74 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:tuff",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:blue_wool"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:tuff",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:tuff",
+            "probability": 0.24
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:tuff",
+            "probability": 0.23
+          },
+          "output_state": {
+            "Name": "minecraft:dark_prismarine"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:tuff",
+            "probability": 0.23
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_bricks"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "crystallizedgenerators:water_crystal",
+  "biomes": "#crystallizedgenerators:cold_ocean",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "crystallizedgenerators:cold_water_hill",
+    "size": 1
+  }
+}
